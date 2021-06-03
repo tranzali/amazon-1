@@ -26,8 +26,7 @@ export default async (req, res) => {
         },
         line_items: transformedItems,
         mode: "payment",
-        success_url: "https://amazon-1-gymu0l95w-qarobar3-gmailcom.vercel.app/success",
-        // success_url: `${process.env.HOST}/success`,
+        success_url: `${process.env.HOST}/success`,
         cancel_url: `${process.env.HOST}/checkout`,
         metadata: {
             email,
