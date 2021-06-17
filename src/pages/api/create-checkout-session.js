@@ -1,9 +1,5 @@
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 
-return (
-    `${process.env.HOST}`
-)
-
 export default async (req, res) => {
     const { items, email } = req.body
 
@@ -37,4 +33,7 @@ export default async (req, res) => {
     })
 
     res.status(200).json({ id: session.id })
+    return (
+        `${process.env.HOST}`
+    )
 }
