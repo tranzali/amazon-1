@@ -15,10 +15,7 @@ export default async (req, res) => {
             },
         }
     }))
-    return (
-        <h1>`${process.env.HOST}`</h1>
-    )
-
+   
     const session = await stripe.checkout.sessions.create({
         payment_method_types: ["card"],
         shipping_rates: ['shr_1IxFgsAnz2hzNCvMkITe8fKx'],
