@@ -20,7 +20,7 @@
     "firebase-admin": "^10.0.2",
     "micro": "^9.3.4",
     "moment": "^2.29.1",
-    "next": "^12.0.7",
+    "next": "^12.1.0",
     "next-auth": "^3.23.3",
     "path-parse": "^1.0.7",
     "react": "^17.0.2",
