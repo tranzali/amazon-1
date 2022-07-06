@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.1",
+    "@next-auth/prisma-legacy-adapter": "^0.0.1-canary.127",
+    "@prisma/client": "^2.30.3",
     "@reduxjs/toolkit": "^1.6.1",
     "@stripe/stripe-js": "^1.15.0",
     "@tailwindcss/line-clamp": "^0.2.1",
